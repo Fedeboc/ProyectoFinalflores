@@ -1,0 +1,6 @@
+[
+  { "id": "BTC", "nombre": "", "usd": 50000 },
+  { "id": "BNB", "nombre": "", "usd": 2000 },
+  { "id": "SOL", "nombre": "", "usd": 800 },
+  { "id": "ETH", "nombre": "", "usd": 1500 }
+]
