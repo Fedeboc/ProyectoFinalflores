@@ -5,10 +5,9 @@ event.preventDefault();
 
 const {name, edad, email, password,} = event.target
 
-let persona = edad >= 18 ? true : false;
+let persona = edad.value >= 18 ? true : false;
 
 persona1 = persona ? "Señor" : "Joven";
-
 
 console.log(name.value, edad.value, email.value, password.value);
 
@@ -17,8 +16,6 @@ Swal.fire({
         text: "Bienvenido " + persona1 + " " + name.value,
         confirmButtonText: "Aceptar",
       });
-
-
 }
 
 form.addEventListener("submit", enviarFormulario);
