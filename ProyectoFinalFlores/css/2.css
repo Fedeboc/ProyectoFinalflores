@@ -1,0 +1,86 @@
+body  {
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: white;
+    border-color: #5833FF;   
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: #5833FF; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.inicio, h1 {
+    clear: #5833FF;
+    
+}
+
+
+.inventario {
+    color:gray;
+}
+
+
+.carrito {
+    color: gray;
+}
+.crypto {
+    color: gray;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.contenedor img {
+    height: 50px;
+    background-color: #5833FF; 
+}
+
+.formulario {
+        display: grid;
+        grid-template-columns: 650px  0px 500px;
+    
+}
+
+
+
+
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+

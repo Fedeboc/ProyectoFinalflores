@@ -1,11 +1,11 @@
 let contenedor = document.getElementById("contenedor");
- contenedor.innerHTML = "<h1>Inventario</h1>"
+
 
  fetch("./Json/Data.json")
  .then((response) => response.json())
  .then((data) => {
    data.forEach((item) => {
-     let li = document.createElement("lu");
+     let li = document.createElement("p");
      li.innerHTML = `
      <h2>${item.id}</h2>
      <p>Fondos: ${item.nombre}</p>
